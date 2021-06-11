@@ -1,0 +1,66 @@
+/*Responsividade para tablet*/
+@media screen and (min-width: 501px) and (max-width: 820px) {
+    body {
+        margin: auto;
+    }
+
+    main {
+        width: auto;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .imagem-padrao {
+        display: normal;
+    }
+
+    .imagem-padrao-pq {
+        display: none;
+    }
+     
+    .video-padrao, .video-padrao-pq {
+        display: none;
+    }
+    
+    .video-padrao-pq-ipad{
+        display: block;
+        margin: 50px auto;
+    }
+
+}
+
+
+
+/*Responsividade para tablet horizontal*/
+@media screen and (min-width: 821px) and (max-width: 1100px) and (orientation: landscape) {
+    body {
+        margin: auto;
+    }
+
+    main {
+        width: auto;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    .imagem-padrao {
+        display: normal;
+    }
+
+    .imagem-padrao-pq {
+        display: none;
+    }
+     
+    .video-padrao {
+        display: normal;
+    }
+    
+    .video-padrao-pq-ipad, .video-padrao-pq{
+        display: none;
+    }
+
+}

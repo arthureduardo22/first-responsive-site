@@ -1,0 +1,33 @@
+/*Responsividade para celular*/
+@media  screen and (max-width: 500px) {
+    body {
+        margin: auto;
+    }
+
+    main {
+        width: auto;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    .imagem-padrao {
+        display: none;
+    }
+
+    .imagem-padrao-pq {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .video-padrao, .video-padrao-pq-ipad {
+        display: none;
+    }
+
+    .video-padrao-pq {
+        display: inline-block;
+        margin: 25px auto;
+    }
+
+}
